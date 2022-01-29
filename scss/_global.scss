@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Mulish:ital,wght@0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Vujahday+Script&display=swap");
+
+.container {
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  color: $color-navy;
+  text-decoration: none;
+}
+body {
+  font-family: $font-family;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: $finger-size;
+  background-color: $color-blue;
+  border-radius: $border-radius;
+  font-weight: bold;
+  color: white;
+}

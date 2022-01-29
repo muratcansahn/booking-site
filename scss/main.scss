@@ -1,5 +1,6 @@
-@import "variable";
+@import "_variable";
+@import "_mixin";
 @import "normalize";
-@import "global";
+@import "_global";
 ///components
-@import "header";
+@import "_header";

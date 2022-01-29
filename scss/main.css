@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Mulish:ital,wght@0,700;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Vujahday+Script&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -340,10 +341,116 @@ template {
 
 .container {
   max-width: 1200px;
-  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: #083b87;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 40px;
+  background-color: #01acee;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
 }
 
 .header {
-  background-color: red;
+  border-bottom: 1px solid red;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 64px;
+}
+
+.header-logo img {
+  width: 144px;
+}
+
+@media (min-width: 768px) {
+  .header-switch {
+    display: none;
+  }
+}
+
+.header-menu {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-menu-user {
+  margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-menu-user a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.header-menu-user a:hover {
+  background-color: #f1f6ff;
+}
+
+.header-menu-helper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+.header-menu-helper select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #f1f6ff;
+  background-color: transparent;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 40px;
+}
+
+.header-menu-helper select:nth-child(1) {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.header-menu-helper select:nth-child(2) {
+  margin-left: -1px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */

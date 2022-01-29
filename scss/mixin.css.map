@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "variable.scss"
+        "mixin.scss"
     ],
     "names": [],
-    "file": "variable.css"
+    "file": "mixin.css"
 }
